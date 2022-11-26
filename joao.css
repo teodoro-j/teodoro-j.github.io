@@ -1,0 +1,129 @@
+body {
+    margin: 0 auto;
+    word-wrap: break-word;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+}
+
+.geral {
+    width: 30%;
+    display: flex; 
+    padding-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+    background-color: #003153;
+}
+
+.circulo {
+    left:50%;
+	top:40px;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 5% 0 5% 0;
+    border-radius: 50%;
+    border: #F6F5ED solid; 
+}
+
+.circulo img {
+    width: 100%;
+}
+
+h2, h3, p {
+    color: #F6F5ED;
+}
+
+ul {
+    width: 80%;
+    list-style:none;
+    padding-left: 0;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    font-size: 16px;
+    color: #F6F5ED;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.phone, .place, .email, .plusImg, .comunicacao, .criatividade, .proatividade, .aprendizagem, .local {
+    margin-right: 0.8rem;
+}
+
+hr {
+    width: 5rem;
+}
+ p{
+    width: 80%;
+
+ }
+
+.detalhe {
+    width: 70%;
+    padding: 2rem;
+    background-color: #F6F5ED;
+    color: #003153 !important;
+}
+
+.detalhe li {
+    color: #003153 !important;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.descricao {
+    width:100%;
+}
+
+.titulo {
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+
+}
+
+.subtitulo, .periodo {
+    color:#003153;
+}
+
+.subtitulo {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0.8rem 0 1rem 0;
+}
+
+.periodo {
+    margin: 0;
+    padding: 1rem 0 0.8rem 0;
+}
+
+.cursos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.extra, .idiomas {
+    width: 50%;
+}
+
+.subtitulo_curso {
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0.8rem 0 0.2rem 0;
+    padding: 0;
+}
+
+.descricao_curso {
+    margin: 0;
+}
+
+
